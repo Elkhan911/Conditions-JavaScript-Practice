@@ -132,3 +132,9 @@ if (arr7.length == 5) {
 let str8 = "ahfryb";
 let res8 = str8[0] == "a" && str8[str8.length - 1] == "b" ? true : false;
 console.log(res8);
+
+/* 9. Пусть в переменной num хранится число. Определите, четное число или нет. */
+
+let num9 = 96;
+let res9 = num9 % 2 == 0 ? true : false;
+console.log(res9);
