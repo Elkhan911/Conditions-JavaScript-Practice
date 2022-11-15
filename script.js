@@ -117,11 +117,18 @@ if (min6 > 0 && min6 < 60) {
 Если это так, выведите на экран сумму элементов массива. */
 
 let arr7 = [1, 2, 3, 4, 5];
-let res = 0;
+let res7 = 0;
 
 if (arr7.length == 5) {
   for (let elem of arr7) {
-    res += elem;
+    res7 += elem;
   }
-  console.log(res);
+  console.log(res7);
 }
+
+/* 8. Дана переменная, содержащая некоторую строку. 
+Проверьте, что эта строка начинается на символ 'a' или символ 'b'.*/
+
+let str8 = "ahfryb";
+let res8 = str8[0] == "a" && str8[str8.length - 1] == "b" ? true : false;
+console.log(res8);
